@@ -17,4 +17,9 @@ class AuthController extends Controller
     {
     	return view('app');
     }
+
+    public function getWelcome()
+    {
+    	return view('welcome');
+    }
 }

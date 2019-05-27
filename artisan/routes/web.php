@@ -18,4 +18,5 @@
 Route::group(['prefix' => 'web', 'namespace' => 'Web'], function () {
 	Route::get('/login', 'AuthController@getSocialCallback');
 	Route::get('/app', 'AuthController@getApp');
+	Route::get('/welcome', 'AuthController@getWelcome');
 });
